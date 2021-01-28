@@ -54,23 +54,6 @@ summary(M13)
 #Multiple R-squared:  0.5263,	Adjusted R-squared:  0.4402 
 
 ##Cau5
-# alpha = 0.05
-# df = 11
-#Mo hinh hai bien doc lap x1, x2
-#H0: B1=B2=0
-#H1: Ton tai it nhat Bj !=0 voi j = 1,2
-fval <- qt(1-0.05,11)
-fval
-#1.795885
-summary(M12)
-#Fobs = 12.1 > fval
-#Bac bo H0
-#Voi muc y nghia 0.05, y duoc giai thich boi it nhat 1 bien
-
-##Mo hinh hai bien doc lap x2, x3
-#H0: B2=B3=0
-#H1: Ton tai it nhat Bj !=0 voi j = 2,3
-#
 
 ##Cau6
 #Mo hinh hoi quy tuyen tinh voi nhieu bien nhat co the
